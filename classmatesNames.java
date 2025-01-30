@@ -1,5 +1,5 @@
-public class Main{
-    public static void main(String[] args){
+public class classmatesNames{
+    public static void names() {
         String[] array = new String[14];
         array[0] = "Camila";
         array[1] = "Cristian";

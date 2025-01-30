@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class PiedraPapelTijera {
-    public static void main(String[] args) {
+    public static void ppt() {
         Random random = new Random();
         int randomNumber = random.nextInt(3);
         switch (randomNumber) {
