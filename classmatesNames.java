@@ -1,6 +1,6 @@
 //Realiza print de cada uno de los nombres de los compañeros de clase. 
 
-/**
+/*
  * Autor: Mario Villegas
  * Matrícula: 14599
  * Fecha: 04-Feb-2025
@@ -8,32 +8,32 @@
 
 public class ClassmatesNames {
     public static void showNames() {
-        String[] array = new String[14];  //creando un arreglo de 14 elementos 
-        array[0] = "Camila";
-        array[1] = "Cristian";
-        array[2] = "Sebastian";
-        array[3] = "Mario";
-        array[4] = "Avitia";
-        array[5] = "Leslie";
-        array[6] = "Argel";
-        array[7] = "Beca";
-        array[8] = "Rodrigo";
-        array[9] = "Jorge";
-        array[10] = "Oscar";
-        array[11] = "Carlo";
-        array[12] = "Cesar";
-        array[13] = "Justin";
+        String[] names = new String[14];  //creando un arreglo de 14 elementos 
+        names[0] = "Camila";
+        names[1] = "Cristian";
+        names[2] = "Sebastian";
+        names[3] = "Mario";
+        names[4] = "Avitia";
+        names[5] = "Leslie";
+        names[6] = "Argel";
+        names[7] = "Beca";
+        names[8] = "Rodrigo";
+        names[9] = "Jorge";
+        names[10] = "Oscar";
+        names[11] = "Carlo";
+        names[12] = "Cesar";
+        names[13] = "Justin";
 
-        System.out.println("Yo soy" + array[3]);
+        System.out.println("Yo soy" + names[3]);
 
 
         //utilizando un for each para imprimir los nombres, recorriendo el arreglo
 
-        for (String array1 : array) {
-            System.out.println(array1);
+        for (String name : names) {
+            System.out.println(name);
         }
         
         //print a la longitud del arreglo
-    System.out.println(array.length);
+    System.out.println(names.length);
         }
     }
