@@ -3,6 +3,7 @@ public class Estructura {
         //ArrayNames.arrayNames();
         //PiedraPapelTijera.ppt();
         //ClassmatesNames.showNames();
-        Calificaciones.promedio();
+        //Calificaciones.promedio();
+        UserData.fullName();
     }
 }
