@@ -1,4 +1,4 @@
-//Realiza print de cada uno de los nombres de los compañeros de clase. 
+
 
 /*
  * Autor: Mario Villegas

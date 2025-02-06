@@ -1,9 +1,4 @@
-/*
- * Autor: Mario Villegas
- * Matrícula: 14599
- * Fecha: 05-Feb-2025
- */
-// Sumar 3 califiaciones e imprimir el promedio.
+
 
 public class Calificaciones {
     public static void promedio() {

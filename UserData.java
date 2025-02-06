@@ -1,9 +1,7 @@
-//Interpolacion de datos
-
 /*
  * Autor: Mario Villegas
  * Matrícula: 14599
- * Fecha: 05-Feb-2025
+ * Fecha: 06-Feb-2025
  */
 
 public class UserData {
