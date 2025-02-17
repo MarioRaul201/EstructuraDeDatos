@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class TriangleScan {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void areaTriangle() {
         Scanner objscan = new Scanner(System.in);
 

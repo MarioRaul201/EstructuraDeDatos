@@ -1,5 +1,6 @@
 
-import java.util.Scanner;
+
+
 
 /*
  * Autor: Mario Villegas
@@ -16,10 +17,31 @@ public class Estructura {
         //UserData.fullName();
         //Scan.scanning();
         //TriangleScan.areaTriangle();
+
+/* 
         Scanner objScan = new Scanner(System.in);
         System.out.print("Enter the radius of the circle: ");
         double radius = objScan.nextDouble();
         AreaCircle.areaCircle(radius);
         objScan.close();
+*/
+/*
+        ArrayListExample objArrayListExample = new ArrayListExample();
+        objArrayListExample.arrayListCars("Toyota");
+
+        Scanner objScanner = new Scanner(System.in);
+        System.out.println("Enter the car you want to add: ");
+        String car = objScanner.nextLine();
+        objArrayListExample.arrayListCars(car);
+
+        objScanner.close();
+*/
+
+        //MultidimensionalArrays.matrices();
+
+        
+        
+
+
     }
 }
