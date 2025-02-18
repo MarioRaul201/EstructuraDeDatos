@@ -1,7 +1,3 @@
-
-
-
-
 /*
  * Autor: Mario Villegas
  * Matrícula: 14599
@@ -39,7 +35,18 @@ public class Estructura {
 
         //MultidimensionalArrays.matrices();
 
-        
+        Grades student = new Grades();
+                //Calcualar calificación parcial
+        int partialGrade=student.calculatePartialGrade(85,90);
+        System.out.println("Partial grade: "+partialGrade);
+                //Calcular la calificacion final
+        int finalGrade=student.calculateFinalGrade(80,75,90,85);
+        System.out.println("Final grade: "+finalGrade);
+                //Verificar si el alumno reprobo por faltas
+        String attendanceStatus=student.checkFailureByAbsences(64,7);
+        System.out.println(attendanceStatus);
+
+
         
 
 
