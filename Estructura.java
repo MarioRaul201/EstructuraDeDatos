@@ -34,7 +34,7 @@ public class Estructura {
 */
 
         //MultidimensionalArrays.matrices();
-
+/*
         Grades student = new Grades();
                 //Calcualar calificación parcial
         int partialGrade=student.calculatePartialGrade(85,90);
@@ -45,7 +45,10 @@ public class Estructura {
                 //Verificar si el alumno reprobo por faltas
         String attendanceStatus=student.checkFailureByAbsences(64,7);
         System.out.println(attendanceStatus);
+*/
 
+        OddsPairsZero nums= new OddsPairsZero();
+        nums.countnumbers();
 
         
 
