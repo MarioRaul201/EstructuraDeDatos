@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*
  * Autor: Mario Villegas
  * Matrícula: 14599
@@ -47,11 +50,19 @@ public class Estructura {
         System.out.println(attendanceStatus);
 */
 
-        OddsPairsZero nums= new OddsPairsZero();
-        nums.countnumbers();
+        //OddsPairsZero nums= new OddsPairsZero();
+        //nums.countnumbers();
 
-        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ingresa la calificacion del examen parcial: ");
+        double a = sc.nextDouble();
+        System.out.println("Ingresa la calificacion de las tareas: ");
+        double b = sc.nextDouble();
+
+        GradeCalculationPartial.calcuateGrade(a, b);
 
 
+        //SalesWithDiscount.totalWithDiscount();
     }
 }
