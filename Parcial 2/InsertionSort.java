@@ -4,7 +4,6 @@ public class InsertionSort {
     int[] array={6,2,5,7,8,2};
 
     public void sort(){
-        int lenght = array.length;
         for (int i = 0; i < array.length; i++) {
             int key =array[i];
             int j=i-1;
