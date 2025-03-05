@@ -1,3 +1,6 @@
+//Big O notation of Selection Sort is O(n^2) in the worse case
+//O(n^2) = (n(n-1))/2
+
 public class SelectionSort {
     int comparaciones = 0;
     public void selectionSort(int arr[]) {

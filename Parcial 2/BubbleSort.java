@@ -1,3 +1,7 @@
+
+//Big O notation of Bubble sort is O(n^2) in the worse case
+//O(n^2) = (n(n-1))/2
+
 public class BubbleSort {
     public void bubbleSort(int[] arr) {
         int n = arr.length;

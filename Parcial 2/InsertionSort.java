@@ -1,4 +1,7 @@
 
+//Big O notation of Insertion is O(n^2) in the worse case
+//O(n^2) = (n(n-1))/2
+
 public class InsertionSort {
 
     public void sort(int[] array) {
