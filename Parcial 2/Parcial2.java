@@ -24,5 +24,11 @@ public class Parcial2 {
             System.out.print(" "+num);
         }
 
+        System.out.println("\nBubbleSort");
+        BubbleSort bubbleSort = new BubbleSort();
+        bubbleSort.bubbleSort(peorcaso);
+        for (int num : peorcaso) {
+            System.out.print(" "+num);
+        }
     }
 }
