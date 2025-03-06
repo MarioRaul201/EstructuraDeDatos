@@ -62,6 +62,8 @@ public class Estructura {
 
         GradeCalculationPartial.calcuateGrade(a, b);
 
+        sc.close();
+
 
         //SalesWithDiscount.totalWithDiscount();
     }
