@@ -47,13 +47,13 @@ public class Parcial2 {
 
 
         Hashmap hashmap = new Hashmap();
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese la clave: ");
-        String name = sc.nextLine();
-        System.out.print("Ingrese el valor: ");
-        int valores = sc.nextInt();
-        hashmap.examplehash(name, valores);
-        sc.close();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Ingrese la clave: ");
+            String name = sc.nextLine();
+            System.out.print("Ingrese el valor: ");
+            int valores = sc.nextInt();
+            hashmap.examplehash(name, valores);
+        }
 
         }
 }
