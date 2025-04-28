@@ -1,5 +1,8 @@
+
+
 public class Parcial3Main {
     public static void main(String[] args) {
+        /*
         SinglyLinkedList list = new SinglyLinkedList();
         list.insert(10);
         list.insert(20);
@@ -18,5 +21,11 @@ public class Parcial3Main {
         list.insert(18);
         System.out.println("List after inserting 18:");
         list.display();
+    } 
+    */
+
+        //LIFO
+        Lifo pila = new Lifo();
+        pila.EjemploPila();
     }
 }
