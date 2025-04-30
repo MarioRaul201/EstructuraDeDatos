@@ -25,14 +25,14 @@ public class Parcial3Main {
     } 
     */
 
-        //LIFO
+        //LIFO - Pila
         Lifo pila2 = new Lifo();
         Stack<String> pileishon = pila2.CrearPila();
         pila2.add(pileishon,"PLato 1");
 
 
 
-        //FIFO
+        //FIFO - List 
         Fifo cola2 = new Fifo();
         Queue<String> coleishon = cola2.CrearCola();
         cola2.add(coleishon, "Plato 1");
