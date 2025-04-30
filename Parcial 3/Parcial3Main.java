@@ -1,4 +1,5 @@
-
+import java.util.Queue;
+import java.util.Stack;
 
 public class Parcial3Main {
     public static void main(String[] args) {
@@ -25,7 +26,15 @@ public class Parcial3Main {
     */
 
         //LIFO
-        Lifo pila = new Lifo();
-        pila.EjemploPila();
-    }
+        Lifo pila2 = new Lifo();
+        Stack<String> pileishon = pila2.CrearPila();
+        pila2.add(pileishon,"PLato 1");
+
+
+
+        //FIFO
+        Fifo cola2 = new Fifo();
+        Queue<String> coleishon = cola2.CrearCola();
+        cola2.add(coleishon, "Plato 1");
+        }
 }

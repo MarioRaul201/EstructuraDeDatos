@@ -1,25 +1,32 @@
 import java.util.Stack;
 
 public class Lifo {
-    public void EjemploPila() {
+    public Stack<String> CrearPila() {
         Stack<String> pila = new Stack<>();
 
-        // PUSH: Agregando elementos
-        pila.push("Plato 1");
-        pila.push("Plato 2");
-        pila.push("Plato 3");
-        pila.push("Plato 4");
+        return pila;
+    }
 
-        // PEEK: Consultando el elemento en la cima
-        System.out.println("Elemento en la cima: " + pila.peek());
+    public void add(Stack<String> lista,String item){
+        lista.push(item);
+        System.out.println("Elemento agregado: " + item);
 
-        // POP: Eliminando elementos de la pila
-        System.out.println("Elemento removido: " + pila.pop());
-        System.out.println("Elemento removido: " + pila.pop());
+    }
 
-        System.out.println("Elemento removido: " + pila.pop());
-
-        // PEEK: Estado final de la pila
-        System.out.println("Elemento en la cima ahora: " + pila.peek());
+    public void remove(Stack<String> lista){
+        if (!lista.isEmpty()) {
+            String item = lista.pop();
+            System.out.println("Elemento removido: " + item);
+        } else {
+            System.out.println("La pila está vacía.");
+        }
+    }
+    public void whatsNext(Stack<String> lista){
+        if (lista.isEmpty()) {
+            System.out.println("La pila está vacía.");
+        } else {
+            String item = lista.peek();
+            System.out.println("Elemento en la cima: " + item);
+        }
     }
 }
