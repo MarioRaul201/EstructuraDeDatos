@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution():
     def isPalindrome(self, x):
         numbers = list(str(x))
 
