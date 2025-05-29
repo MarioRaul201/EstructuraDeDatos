@@ -3,7 +3,7 @@ from typing import List
 
 class SolutionBruteForce:
     # Solución de fuerza bruta
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: List[int], target: int) -> list[int]:
         # Recorremos cada elemento
         for i in range(len(nums)):
             # Recorremos los siguientes elementos para evitar duplicados
